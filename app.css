@@ -14821,12 +14821,16 @@ fieldset:disabled .btn {
   background: #caad37
 }
 
-.tinyFooter p a {
+.LandingThree .tinyFooter p a {
+  display: inline;
   font-size: 16px;
-  color: #fecb02 !important
+  font-weight: 600;
+  color: #fecb02 !important;
+  padding: 0 5px
 }
 
-.tinyFooter p {
+.LandingThree .tinyFooter p {
+  text-align: center;
   font-size: 16px;
   font-weight: 600;
   color: #fff !important;
@@ -14835,7 +14839,7 @@ fieldset:disabled .btn {
   z-index: 3
 }
 
-.tinyFooter {
+.LandingThree .tinyFooter {
   padding-top: 25px
 }
 
@@ -15671,12 +15675,17 @@ fieldset:disabled .btn {
   color: #93ca41
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&amp;family=Noto+Serif+Bengali&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@300;400;700&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;700&amp;display=swap");
 
 .Landing__14 {
   overflow-x: hidden;
-  box-sizing: border-box;
-  font-family: Hind Siliguri, sans-serif
+  box-sizing: border-box
+}
+
+.Landing__14,
+.Landing__14 h1 {
+  font-family: Hind Siliguri, sans-serif !important
 }
 
 .Landing__14 h1 {
@@ -15690,7 +15699,7 @@ fieldset:disabled .btn {
   line-height: 60px;
   color: #ec3361;
   font-weight: 600;
-  font-family: "Noto Serif Bengali", serif
+  font-family: "Noto Serif Bengali", serif !important
 }
 
 .Landing__14 p {
@@ -17455,6 +17464,24 @@ fieldset:disabled .btn {
   font-size: 18px;
   line-height: 28px;
   font-weight: 400
+}
+
+.Landing__18__Footer .tinyFooter p a {
+  display: inline;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--bg1) !important;
+  padding: 0 5px
+}
+
+.Landing__18__Footer .tinyFooter p {
+  line-height: 0px;
+  text-align: center;
+  color: #fff !important
+}
+
+.Landing__18__Footer .tinyFooter {
+  margin-top: 30px
 }
 
 @media (max-width:1700px) {
